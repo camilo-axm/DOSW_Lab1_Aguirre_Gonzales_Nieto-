@@ -1,4 +1,4 @@
 package challenge1;
 
-public class challenge1 {
+public class Challenge1 {
 }
