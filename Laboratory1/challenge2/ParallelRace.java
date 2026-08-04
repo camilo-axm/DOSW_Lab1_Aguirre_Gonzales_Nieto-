@@ -13,7 +13,11 @@ public class ParallelRace {
                             .max(Integer::compareTo)
                             .orElseThrow();
         int maximun = findMaximun.apply(numbers);
+        String maximunMultiplyByTwo =
+                maximun % 2 == 0 ? "YES" : "NO";
+    
         System.out.println("The maximum value is: " + maximun);
+        System.out.println("Is maximun a multiple of 2?? " + maximunMultiplyByTwo);
     }
 }
 
