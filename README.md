@@ -2,7 +2,6 @@
 Teamwork Agreements
 
 -We will divide the work at the beginning of the lab's publication date, members of this       group will have a minimun of 5 hours before the lab submission deadline to complete their     assigned part.
-
 -If anyone has a question about another members work, feel free to ask.
 
 -We will work equitably and collaboratively throughout the semester.
