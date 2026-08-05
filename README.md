@@ -12,13 +12,17 @@ Teamwork Agreements
 -Finally we will enjoy this process and we are learn in every lab.
 
 Meeting times
+
 -As a group we decided to meet every Monday from 17:00 to 22:00 and on Wednesday in the same  time.
 
 Communication channels
+
 -Whatsapp and Teams
 
 Frequency of our meetings
+
 -Weekly
 
 How would we resolv a conflict
+
 -We would view the problem objectively and first, we discuss it among ourselves as a team members, attempting to find solution and after that if the conlict is hard we consulting to Profesor Laura would be the final step.
