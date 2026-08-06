@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 public class Challenge3 {
     public static void main(String[] args) {
-        String result = echoMessage("Echo");
+        String result = echoReverseMessage("echo");
         System.out.println(result);
     }
 
@@ -16,4 +16,13 @@ public class Challenge3 {
 
         return builder.toString();
     }
+
+    public static String reverseMessage(String message){
+        return message;
+    }
+
+    public static String echoReverseMessage(String message){
+        return reverseMessage(echoMessage(message));
+    }
+    
 }
