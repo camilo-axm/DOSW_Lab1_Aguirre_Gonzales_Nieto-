@@ -1,1 +1,3 @@
-# DOSW_Lab1_Aguirre_Gonzales_Nieto-
+# DOSW_Lab1_Aguirre_Gonzalez_Nieto-
+
+# CHALLENGE 1
