@@ -19,7 +19,13 @@ public class ParallelRace {
     public static String isMaxDivisibleByTwo(List<Integer> numbers) {
     int max = getMaxnumber(numbers);
     return (max % 2 == 0) ? "Sí" : "No";
+    }
+
+    public static int isSizeOddList(<Integer> numbers) {
+    return (getTotalElements(numbers) % 2 == 0) ? "Sí" : "No";
     
+    }
+
 
 
 }
