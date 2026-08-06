@@ -18,7 +18,9 @@ public class Challenge3 {
     }
 
     public static String reverseMessage(String message){
-        return message;
+        StringBuffer buffer = new StringBuffer(message);
+
+        return buffer.reverse().toString();
     }
 
     public static String echoReverseMessage(String message){
@@ -26,3 +28,4 @@ public class Challenge3 {
     }
     
 }
+
