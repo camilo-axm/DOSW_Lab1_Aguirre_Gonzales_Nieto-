@@ -42,8 +42,6 @@ How would we resolv a conflict
 - Sara Sofia Gonzalez
 - Juan David Nieto
 
----
-
 # Challenge 1 — Welcome Message
 
 ## Evidence
@@ -60,7 +58,6 @@ How would we resolv a conflict
 
 ![Git Commit](images/challenge1_git.png)
 
----
 
 ## Description
 
