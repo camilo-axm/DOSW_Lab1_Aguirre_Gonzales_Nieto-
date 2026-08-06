@@ -1,6 +1,7 @@
 package challenge5;
 
-import java.util.*;;
+import java.util.*;
+import java.util.stream.*;
 
 public class Challenge5 {
 
@@ -18,15 +19,11 @@ public class Challenge5 {
             numbers.add(value);
         }
         
-        Iterator<Integer> iterator = numbers.iterator();
-        while (iterator.hasNext()) {
-            int current = iterator.next();
-            if (current % 3 == 0) {
-                iterator.remove();
-            }
-        }
+        HashSet<Integer> resultNumbers = numbers.stream()
+            .filter(number -> number % 3 != 0)
+            .collect(Collectors.toCollection(HashSet::new));
         
-        return numbers;
+        return resultNumbers;
     }
 
 }
