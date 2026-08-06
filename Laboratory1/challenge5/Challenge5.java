@@ -6,8 +6,7 @@ import java.util.stream.*;
 public class Challenge5 {
 
     public static void main(String[] args) {
-        HashSet<Integer> result = hashArmy();
-        System.out.println(result);
+        mergeArmies();
     }   
 
     public static HashSet<Integer> hashArmy() {
@@ -24,6 +23,24 @@ public class Challenge5 {
             .collect(Collectors.toCollection(HashSet::new));
         
         return resultNumbers;
+    }
+
+    public static TreeSet<Integer> treeArmy() {
+    
+    return new TreeSet<>();
+
+    }
+
+    public static TreeSet<Integer> mergeArmies() {
+        TreeSet<Integer> arena = new TreeSet<>();
+
+        arena.addAll(hashArmy());
+        arena.addAll(treeArmy());
+
+        arena.stream()
+            .forEach(number -> System.out.println("Number in the arena: " + number));
+
+        return arena;
     }
 
 }
