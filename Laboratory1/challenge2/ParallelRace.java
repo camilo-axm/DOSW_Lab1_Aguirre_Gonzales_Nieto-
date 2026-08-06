@@ -22,7 +22,7 @@ public class ParallelRace {
     }
 
     public static int isSizeOddList(<Integer> numbers) {
-    return (getTotalElements(numbers) % 2 == 0) ? "Sí" : "No";
+    return (getTotalElements(numbers) % !2 == 0) ? "Sí" : "No";
     
     }
 
