@@ -88,35 +88,34 @@ A merge conflict occurred because the changes were initially made in the wrong f
 The conflict was resolved by restoring the correct files, removing the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), verifying the code, and committing the corrected version to the appropriate branch.
 
 
+
 ## Challenge 2 — Parallel Commit Race
 
 ### Evidence
+Conflicts
+<img width="655" height="510" alt="WhatsApp Image 2026-08-06 at 9 40 21 AM" src="https://github.com/user-attachments/assets/861d8cc4-cf01-434c-b6dd-cdf0a81f2dc0" />
 
-![Challenge 2 Evidence](images/challenge2.png) <img width="223" height="108" alt="image" src="https://github.com/user-attachments/assets/5787ea42-d0d7-4352-b998-c0cc632640a5" />
+Results
+<img width="651" height="301" alt="WhatsApp Image 2026-08-06 at 10 02 07 AM" src="https://github.com/user-attachments/assets/ade7c3e0-4542-4b42-8363-f6c4e5d8186b" />
+
+
 
 
 ### Description
 
-#### What was implemented
+During this challenge, we implemented several lambda-based methods to process lists of integers. The final program obtains the maximum value, minimum value, total number of elements, verifies whether the maximum value is divisible by 2, and checks whether the list size is odd or even. Finally, the methods were tested using two different lists in the `main` method.
 
-On the line one, A Java method was implemented to find the largest number in a list of integers using functional programming. The solution uses the Stream API, a lambda expression with the max() method, and orElse(0) to return 0 when the list is empty.
+The work was divided between both team members. One branch was responsible for implementing the maximum value function and the validations related to it, while the other branch implemented the minimum value function, the total number of elements, and the list size validation. After completing the individual tasks, both branches were merged into the main challenge branch.
 
-#### How the work was divided
+The Git operations used during the challenge included:
 
-The challenge was developed individually by implementing the lambda expression and the Stream operations. Afterward, the solution was reviewed and integrated into the team's repository.
+- `git checkout`
+- `git branch`
+- `git add`
+- `git commit`
+- `git merge`
+- `git stash`
+- `git stash pop`
+- `git log --oneline --graph --decorate --all`
 
-#### Which Git operations were used
-
-- git checkout
-- git add
-- git commit
-- git push
-- git pull
-
-#### Which conflicts appeared
-
-No merge conflicts occurred during the development of this challenge.
-
-#### How the conflicts were resolved
-
-No conflict resolution was required because the changes were integrated successfully.
+Merge conflicts appeared because both branches modified the same Java file (`ParallelRace.java`) and added methods in similar sections of the code. The conflicts were resolved manually by reviewing both implementations, keeping the required methods from each branch, correcting method names and syntax errors, and ensuring that all functions worked together correctly before creating the final version.
