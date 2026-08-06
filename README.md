@@ -92,7 +92,8 @@ The conflict was resolved by restoring the correct files, removing the conflict 
 
 ### Evidence
 
-![Challenge 2 Evidence](images/challenge2.png)
+![Challenge 2 Evidence](images/challenge2.png) <img width="223" height="108" alt="image" src="https://github.com/user-attachments/assets/5787ea42-d0d7-4352-b998-c0cc632640a5" />
+
 
 ### Description
 
