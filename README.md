@@ -87,3 +87,35 @@ A merge conflict occurred because the changes were initially made in the wrong f
 
 The conflict was resolved by restoring the correct files, removing the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), verifying the code, and committing the corrected version to the appropriate branch.
 
+
+## Challenge 2 — Parallel Commit Race
+
+### Evidence
+
+![Challenge 2 Evidence](images/challenge2.png)
+
+### Description
+
+#### What was implemented
+
+On the line one, A Java method was implemented to find the largest number in a list of integers using functional programming. The solution uses the Stream API, a lambda expression with the max() method, and orElse(0) to return 0 when the list is empty.
+
+#### How the work was divided
+
+The challenge was developed individually by implementing the lambda expression and the Stream operations. Afterward, the solution was reviewed and integrated into the team's repository.
+
+#### Which Git operations were used
+
+- git checkout
+- git add
+- git commit
+- git push
+- git pull
+
+#### Which conflicts appeared
+
+No merge conflicts occurred during the development of this challenge.
+
+#### How the conflicts were resolved
+
+No conflict resolution was required because the changes were integrated successfully.
