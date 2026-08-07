@@ -13,8 +13,8 @@
 ### Evidence
 
 ### 1. Project Structure
+<img width="431" height="194" alt="image" src="https://github.com/user-attachments/assets/4d2c69f8-5592-4bcd-810b-ef0967f416e7" />
 
-![Project Structure](images/challenge1_structure.png)
 
 ### 2. Program Execution
 
