@@ -1,30 +1,5 @@
 # DOSW_Lab1_Aguirre_Gonzalez_Nieto-
 
-## Teamwork Agreements
-
-- We will divide the work at the beginning of the lab's publication date, members of this group will have a minimun of 5 hours before the lab submission deadline to complete their assigned part.
-- If anyone has a question about another members work, feel free to ask.
-- We will work equitably and collaboratively throughout the semester.
-- Ther's no need to wworry about dates of submission as well be responsible for our part of the lab.
-- Finally we will enjoy this process and we are learn in every lab.
-
-## Meeting times
-
-- As a group we decided to meet every Monday from 17:00 to 22:00 and on Wednesday in the same  time.
-
-## Communication channels
-
-- Whatsapp and Teams
-
-## Frequency of our meetings
-
-- Weekly
-
-
-## How would we resolve a conflict
-
--We would view the problem objectively and first, we discuss it among ourselves as a team members, attempting to find solution and after that if the conlict is hard we consulting to Profesor Laura would be the final step.
-
 # Laboratory 1 – Git, GitHub and Functional Programming
 
 ## Team Members
@@ -140,3 +115,82 @@ The work was divided between Juan Nieto and Camilo Aguirre. Each team member imp
  * `git fetch`
 
  During the merge process, conflicts arose between the team members' implementations. These included differences in the repetition and reverse methods, requiring the selection of the most appropriate implementation, as well as conflicts caused by changes to the same sections of code, which were resolved by reorganizing the affected methods.
+
+
+## conceptual questionnaire
+
+1. Team agreements: Add the agreements you defined in the Onboarding section here.
+
+### Teamwork Agreements
+
+- We will divide the work at the beginning of the lab's publication date, members of this group will have a minimun of 5 hours before the lab submission deadline to complete their assigned part.
+- If anyone has a question about another members work, feel free to ask.
+- We will work equitably and collaboratively throughout the semester.
+- Ther's no need to wworry about dates of submission as well be responsible for our part of the lab.
+- Finally we will enjoy this process and we are learn in every lab.
+
+### Meeting times
+
+- As a group we decided to meet every Monday from 17:00 to 22:00 and on Wednesday in the same  time.
+
+### Communication channels
+
+- Whatsapp and Teams
+
+### Frequency of our meetings
+
+- Weekly
+
+### How would we resolve a conflict
+
+- We would view the problem objectively and first, we discuss it among ourselves as a team members, attempting to find solution and after that if the conlict is hard we consulting to Profesor Laura would be the final step.
+
+2. What is the difference between git merge and git rebase?
+
+- While `git merge` preserves the commit history exactly as it occurred across the branches being merged, `git rebase` reapplies the commits from the current branch on top of the latest commit of the target branch, resulting in a cleaner, more linear commit history.
+
+3. What happens when two branches modify the same line of a file?
+
+- When two branches modify the same line of a file with completely different content, the outcome depends on the specific actions being taken; a conflict might arise that requires resolving by modifying the file to reconcile the differences, or—if explicitly specified—the change from one of the branches could take precedence.
+
+4. How can you display the branch and merge history graphically in the terminal?
+
+- Using the command `git log --graph --oneline --decorate --all`
+
+5. What is the difference between a commit and a push?
+
+- In Git, a `commit` records a snapshot of changes in the local repository, creating a new point in the project's history. On the other hand, a `push` uploads local commits that do not yet exist in the remote repository, making them accessible to others.
+
+6. What are git stash and git stash pop used for?
+
+- `git stash` is used to store uncommitted changes in the repository; these changes are saved onto a stack, allowing you to switch branches while keeping your repository clean. `git stash pop` retrieves the most recently stashed changes and applies them back to the current repository and branch.
+
+7. What is the difference between HashMap and Hashtable?
+
+- 7. What is the difference between a `HashMap` and a `Hashtable`?
+
+The difference lies in thread safety: `HashMap` is not synchronized, whereas `Hashtable` is. This means that when an execution thread accesses a `Hashtable`, it blocks access for any other thread, whereas `HashMap` lacks these protections, meaning its data integrity could be compromised.
+
+8. What advantages does Collectors.toMap() provide over a traditional loop?
+
+- Its advantages include less code and a declarative coding style that is more intuitive and simple; additionally, it works with Streams and makes the task more straightforward than using a loop.
+
+9. When using stream().map() on a list of objects, what type of operation is being performed?
+
+- It iterates over each element and applies the operation specified in `.map()` to it; the value returned by this operation replaces the input value, resulting in a Stream containing the data types produced by the operation.
+
+10. What does stream().filter() do, and what does it return?
+
+- It iterates over the elements of the stream and evaluates a condition for each one; the elements that satisfy the condition provided to `.filter()` form a new stream.
+
+11. Describe the steps required to create a new feature branch from develop.
+
+- While on the `develop` branch, perform a `git pull` to update the branch and ensure the new one starts from the most recent point of `develop`. Then, create the new branch using the command `git checkout -b "branch name"` or `git switch -c "branch name"`. As a best practice, the branch name should reflect the specific reason for its creation, followed by a distinctive identifier to indicate who is working on it.
+
+12. What is the difference between git branch and git checkout -b?
+
+- While `git branch` is a command used to view and identify the current branches in your repository—whether local or remote, depending on how it is used—`git checkout -b` is used to create a new branch and switch to it from the current one, basing it on the history of the branch you were previously on.
+
+13. Why should new functionality be developed in feature/* branches instead of directly in main?
+
+- This approach provides control, structure, and organization to the way features are implemented. Consequently, if a feature fails, contains errors, or proves unnecessary, it does not affect the work already completed in `main` or the work of others in the repository.
