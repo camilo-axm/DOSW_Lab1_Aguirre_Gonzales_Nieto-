@@ -22,13 +22,13 @@ public class Challenge6 {
     }
 
     public static void main(String[] args) {
-        // Student A commands
+        // Student A
         executeCommand("GREET");
         executeCommand("FAREWELL");
         executeCommand("SING");
         executeCommand("DANCE");
 
-        // Student B commands
+        // Student B
         executeCommand("JOKE");
         executeCommand("SHOUT");
         executeCommand("WHISPER");
