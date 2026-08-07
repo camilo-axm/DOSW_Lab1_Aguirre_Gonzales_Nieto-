@@ -20,14 +20,23 @@ The activities were designed to help us understand how individual contributions 
 Through the development of this laboratory, we aimed to:
 
 -Strengthen our understanding of Git and GitHub as collaborative development tools.
+
 -Practice working with branches and maintaining an organized development history.
+
 -Gain experience creating commits that clearly represent development progress.
+
 -Understand how merge conflicts occur and how they can be resolved.
+
 -Apply Java lambda expressions and functional interfaces.
+
 -Use Streams to transform, filter, and process collections of data.
+
 -Work with different Java collection structures such as HashMap, Hashtable, HashSet, and TreeSet.
+
 -Improve our ability to integrate different implementations into a single working solution.
+
 -Document the development process and the decisions made throughout the laboratory.
+
 -Methodology
 
 The laboratory was completed through a collaborative workflow in which responsibilities were distributed among the team members.
