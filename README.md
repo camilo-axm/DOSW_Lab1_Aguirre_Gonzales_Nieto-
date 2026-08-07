@@ -199,6 +199,8 @@ The difference lies in thread safety: `HashMap` is not synchronized, whereas `Ha
 
 Evidence
 <img width="1303" height="855" alt="image" src="https://github.com/user-attachments/assets/4dfcc467-48e5-4a2f-bbc1-548ed6ba1ec0" />
+<img width="579" height="226" alt="image" src="https://github.com/user-attachments/assets/6fe02fa9-25ae-4ddc-a52b-67daf70b4eb0" />
+
 
 Description
 What was implemented
