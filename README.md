@@ -194,3 +194,51 @@ The difference lies in thread safety: `HashMap` is not synchronized, whereas `Ha
 13. Why should new functionality be developed in feature/* branches instead of directly in main?
 
 - This approach provides control, structure, and organization to the way features are implemented. Consequently, if a feature fails, contains errors, or proves unnecessary, it does not affect the work already completed in `main` or the work of others in the repository.
+
+
+
+Questions
+Team Agreements: Add the agreements you defined in the Onboarding section here.
+
+What is the difference between `git merge` and `git rebase`?
+
+The difference lies in how they manage the commit history. `git merge` combines the contents of two branches by merging the commits, while `git rebase` rewrites the history and moves the base of the current branch to the latest commit of the final branch.
+
+What happens when two branches modify the same line of a file?
+Git cannot automatically determine which version to keep, resulting in a conflict.
+
+How can you graphically visualize the branch and merge history in the terminal?
+
+`git log --graph --oneline --all --decorate`
+`git config --global alias.tree "log --graph --oneline --all --decorate"`
+
+What is the difference between a `commit` and a `push`?
+
+``` `git commit` saves changes to the local repository, and `git push` sends the confirmed commits to a repository like GitHub to update the server.
+
+What are `git stash` and `git stash pop` used for?
+`git stash` temporarily stores changes in a pending work stack and cleans up the directory, while `git stash pop` retrieves the most recently saved changes and removes them from the stash.
+
+What is the difference between `HashMap` and `Hashtable`? `Hashtable` blocks concurrent access but degrades performance, while `HashMap` is asynchronous and offers greater speed.
+
+What advantages does `Collectors.toMap()` offer over a traditional loop?
+Declarative programming, pipeline integration, and explicit collision handling.
+
+When using `stream().map()` on a list of objects, what type of operation is performed?
+It is an intermediate operation.
+
+What does `stream().filter()` do, and what does it return? Evaluate each element of the Stream using a boolean and keep the sequence of elements whose evaluation is true, and return a Stream<T> containing the filtered subset of elements.
+
+Describe the steps necessary to create a new feature branch from `develop`.
+
+git checkout develop
+git pull origin develop
+git checkout -b feature/feature-name
+git switch -c feature/feature-name
+
+What is the difference between `git branch` and `git checkout -b`?
+
+git branch <name>: Creates the branch in the local history, but doesn't switch to it. git checkout -b <name>: Creates the branch and performs the change (checkout).
+
+Why should new functionality be developed in the `feature/*` branches instead of directly in `main`?
+Code stability, task isolation, and CI/CD workflow.
