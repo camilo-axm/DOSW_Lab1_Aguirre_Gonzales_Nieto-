@@ -119,3 +119,66 @@ The Git operations used during the challenge included:
 - `git log --oneline --graph --decorate --all`
 
 Merge conflicts appeared because both branches modified the same Java file (`ParallelRace.java`) and added methods in similar sections of the code. The conflicts were resolved manually by reviewing both implementations, keeping the required methods from each branch, correcting method names and syntax errors, and ensuring that all functions worked together correctly before creating the final version.
+
+
+# Challenge 6 — The Decision Machine
+
+## Evidence
+
+
+## Description
+
+### What was implemented
+
+A Java command execution system called **The Decision Machine** was implemented. The application executes different text commands using a `switch` statement and a `Map<String, Runnable>`, where each command is associated with a lambda expression. The final implementation supports the following commands:
+
+- GREET
+- FAREWELL
+- SING
+- DANCE
+- JOKE
+- SHOUT
+- WHISPER
+- ANALYZE
+
+### How the work was divided
+
+The project was developed collaboratively using two feature branches.
+
+**Student A** implemented:
+
+- GREET
+- FAREWELL
+- SING
+- DANCE
+
+**Student B** implemented:
+
+- JOKE
+- SHOUT
+- WHISPER
+- ANALYZE
+
+After completing the assigned tasks, both implementations were merged into a single version of the project.
+
+### Which Git operations were used
+
+The following Git commands were used during the development process:
+
+- `git branch`
+- `git checkout`
+- `git add`
+- `git commit`
+- `git push`
+- `git pull`
+- `git merge`
+- `git fetch`
+- `git log --oneline --graph --decorate --all`
+
+### Which conflicts appeared
+
+Merge conflicts occurred because both students modified the same source file while implementing different commands. Git was unable to automatically determine which changes should be kept during the merge process.
+
+### How the conflicts were resolved
+
+The conflicts were resolved manually by reviewing the conflicting sections and preserving the valid changes from both branches. Once the conflicts were resolved, the project was compiled and tested to verify that every command worked correctly. Finally, the merged version was committed and pushed to the remote repository.
