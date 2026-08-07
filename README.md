@@ -182,8 +182,9 @@ The work was divided between Juan Nieto and Camilo Aguirre. Each team member imp
  * `git log`
  * `git fetch`
 
-Challenge 4 — The Treasure of Duplicate Keys
+## Challenge 4 — The Treasure of Duplicate Keys
 Evidence
+
 <img width="581" height="166" alt="image" src="https://github.com/user-attachments/assets/d91e3be0-e23a-4a5f-999a-9c6dd7af75d8" />
 
 Description
