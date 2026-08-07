@@ -195,8 +195,11 @@ The difference lies in thread safety: `HashMap` is not synchronized, whereas `Ha
 
 - This approach provides control, structure, and organization to the way features are implemented. Consequently, if a feature fails, contains errors, or proves unnecessary, it does not affect the work already completed in `main` or the work of others in the repository.
 
-Challenge 6 — The Decision Machine
+###Challenge 6 — The Decision Machine
+
 Evidence
+<img width="1303" height="855" alt="image" src="https://github.com/user-attachments/assets/4dfcc467-48e5-4a2f-bbc1-548ed6ba1ec0" />
+
 Description
 What was implemented
 A Java command execution system called The Decision Machine was implemented. The application executes different text commands using a switch statement and a Map<String, Runnable>, where each command is associated with a lambda expression. The final implementation supports the following commands:
