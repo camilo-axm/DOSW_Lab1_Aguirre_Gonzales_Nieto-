@@ -45,20 +45,27 @@ For each challenge, the required functionality was developed in separate branche
 
 This workflow allowed us to practice not only programming, but also coordination, version control, code integration, and technical documentation.
 
-Repository Contents
+# Repository Contents
 
 This repository contains the Java implementations developed during the laboratory, together with the evidence and documentation of the development process.
 
-The main contents are:
+# The main contents are:
 
 Challenge 1: Functional welcome message using student information.
+
 Challenge 2: Processing numerical lists through parallel development and merge conflicts.
+
 Challenge 3: String manipulation using StringBuilder, StringBuffer, lambdas, and Streams.
+
 Challenge 4: Combination and processing of HashMap and Hashtable collections.
+
 Challenge 5: Processing and merging HashSet and TreeSet collections.
+
 Challenge 6: Command execution using switch, Map<String, Runnable>, and lambda expressions.
+
 Conceptual Questionnaire: Answers related to Git, branching, merging, Java Streams, and collections.
-Learning Outcomes
+
+# Learning Outcomes
 
 At the end of the laboratory, we gained practical experience in both collaborative development and Java programming. In particular, we improved our ability to work with Git workflows, integrate contributions from multiple developers, identify conflicts, and apply functional programming techniques to different programming problems.
 
