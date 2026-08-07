@@ -17,12 +17,12 @@ public class ParallelRace {
     }
     /*Verify is the number is multiple of two*/
     public static String isMaxDivisibleByTwo(List<Integer> numbers) {
-    int max = getMaxnumber(numbers);
+    int max = getMaxNumber(numbers);
     return (max % 2 == 0) ? "Sí" : "No";
     }
 
-    public static int isSizeOddList(<Integer> numbers) {
-    return (getTotalElements(numbers) % !2 == 0) ? "Sí" : "No";
+    public static String isSizeOddList(List<Integer> numbers) {
+    return (getTotalElements(numbers) % 2 != 0) ? "Sí" : "No";
     
     }
 
