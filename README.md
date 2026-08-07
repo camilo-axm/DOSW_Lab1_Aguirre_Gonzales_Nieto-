@@ -67,7 +67,7 @@ A Java application was developed using functional programming concepts. A `Stude
 
 ### How the work was divided
 
-Camilo Aguirre implemented Challenge 1, including the creation of the `Student`, `WelcomeMessage`, and `Challenge1` classes. The remaining team members were assigned to the other challenges of the laboratory.
+it was implement Challenge 1, including the creation of the `Student`, `WelcomeMessage`, and `Challenge1` classes. The remaining team members were assigned to the other challenges of the laboratory.
 
 ### Which Git operations were used
 
