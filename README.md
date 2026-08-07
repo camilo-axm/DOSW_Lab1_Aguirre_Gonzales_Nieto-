@@ -184,7 +184,8 @@ The work was divided between Juan Nieto and Camilo Aguirre. Each team member imp
 
 Challenge 4 — The Treasure of Duplicate Keys
 Evidence
-image
+<img width="581" height="166" alt="image" src="https://github.com/user-attachments/assets/d91e3be0-e23a-4a5f-999a-9c6dd7af75d8" />
+
 Description
 In this challenge, a solution was implemented to combine two different data structures (HashMap and Hashtable) into a single sorted map. The final implementation converts all keys to uppercase, prioritizes values from the Hashtable when duplicate keys exist, and prints the merged result in ascending key order using Java Streams.
 
