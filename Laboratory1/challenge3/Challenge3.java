@@ -26,6 +26,5 @@ public class Challenge3 {
     public static String echoReverseMessage(String message){
         return reverseMessage(echoMessage(message));
     }
-    
 }
 

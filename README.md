@@ -49,7 +49,6 @@
 
 ![Git Commit](images/challenge1_git.png)
 
-
 ### Description
 
 ### What was implemented
@@ -75,8 +74,6 @@ The following Git commands were used during the development of this challenge:
 A merge conflict occurred because the changes were initially made in the wrong feature branch after switching branches.
 
 ### How the conflicts were resolved
-
-The conflict was resolved by restoring the correct files, removing the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), verifying the code, and committing the corrected version to the appropriate branch.
 
 
 
