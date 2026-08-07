@@ -1,34 +1,34 @@
 # DOSW_Lab1_Aguirre_Gonzalez_Nieto-
 
 # DOSW Laboratory 1 – Git, GitHub and Functional Programming
-Introduction
 
+# Introduction
 This laboratory was developed as a practical experience focused on applying collaborative software development practices together with functional programming concepts in Java.
 
 Throughout the laboratory, our team worked on different programming challenges that required us to organize the development process through Git branches, commits, merges, and conflict resolution. At the same time, we applied Java features such as lambda expressions, Streams, collections, and functional interfaces to solve different problems.
 
 Rather than focusing only on completing the programming exercises, this laboratory allowed us to experience a collaborative workflow similar to the one used in real software development projects. Each team member worked on specific tasks, maintained their own branches, contributed commits, and participated in the integration of the final solutions.
 
-Purpose
+# Purpose
 
 The main purpose of this laboratory was to combine software development and version control practices in a single collaborative project.
 
 The activities were designed to help us understand how individual contributions can be developed independently and later integrated into a common codebase. The programming challenges also provided an opportunity to apply functional programming techniques to practical situations.
 
-Main Goals
+# Main Goals
 
 Through the development of this laboratory, we aimed to:
 
-Strengthen our understanding of Git and GitHub as collaborative development tools.
-Practice working with branches and maintaining an organized development history.
-Gain experience creating commits that clearly represent development progress.
-Understand how merge conflicts occur and how they can be resolved.
-Apply Java lambda expressions and functional interfaces.
-Use Streams to transform, filter, and process collections of data.
-Work with different Java collection structures such as HashMap, Hashtable, HashSet, and TreeSet.
-Improve our ability to integrate different implementations into a single working solution.
-Document the development process and the decisions made throughout the laboratory.
-Methodology
+-Strengthen our understanding of Git and GitHub as collaborative development tools.
+-Practice working with branches and maintaining an organized development history.
+-Gain experience creating commits that clearly represent development progress.
+-Understand how merge conflicts occur and how they can be resolved.
+-Apply Java lambda expressions and functional interfaces.
+-Use Streams to transform, filter, and process collections of data.
+-Work with different Java collection structures such as HashMap, Hashtable, HashSet, and TreeSet.
+-Improve our ability to integrate different implementations into a single working solution.
+-Document the development process and the decisions made throughout the laboratory.
+-Methodology
 
 The laboratory was completed through a collaborative workflow in which responsibilities were distributed among the team members.
 
