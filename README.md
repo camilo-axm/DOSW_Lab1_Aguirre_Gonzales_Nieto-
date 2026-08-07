@@ -1,12 +1,68 @@
 # DOSW_Lab1_Aguirre_Gonzalez_Nieto-
 
-# Laboratory 1 – Git, GitHub and Functional Programming
+# DOSW Laboratory 1 – Git, GitHub and Functional Programming
+Introduction
+
+This laboratory was developed as a practical experience focused on applying collaborative software development practices together with functional programming concepts in Java.
+
+Throughout the laboratory, our team worked on different programming challenges that required us to organize the development process through Git branches, commits, merges, and conflict resolution. At the same time, we applied Java features such as lambda expressions, Streams, collections, and functional interfaces to solve different problems.
+
+Rather than focusing only on completing the programming exercises, this laboratory allowed us to experience a collaborative workflow similar to the one used in real software development projects. Each team member worked on specific tasks, maintained their own branches, contributed commits, and participated in the integration of the final solutions.
+
+Purpose
+
+The main purpose of this laboratory was to combine software development and version control practices in a single collaborative project.
+
+The activities were designed to help us understand how individual contributions can be developed independently and later integrated into a common codebase. The programming challenges also provided an opportunity to apply functional programming techniques to practical situations.
+
+Main Goals
+
+Through the development of this laboratory, we aimed to:
+
+Strengthen our understanding of Git and GitHub as collaborative development tools.
+Practice working with branches and maintaining an organized development history.
+Gain experience creating commits that clearly represent development progress.
+Understand how merge conflicts occur and how they can be resolved.
+Apply Java lambda expressions and functional interfaces.
+Use Streams to transform, filter, and process collections of data.
+Work with different Java collection structures such as HashMap, Hashtable, HashSet, and TreeSet.
+Improve our ability to integrate different implementations into a single working solution.
+Document the development process and the decisions made throughout the laboratory.
+Methodology
+
+The laboratory was completed through a collaborative workflow in which responsibilities were distributed among the team members.
+
+For each challenge, the required functionality was developed in separate branches when necessary. Changes were committed progressively and later integrated through merge operations. When conflicts appeared, the affected files were reviewed manually to preserve the valid contributions from each branch.
+
+This workflow allowed us to practice not only programming, but also coordination, version control, code integration, and technical documentation.
+
+Repository Contents
+
+This repository contains the Java implementations developed during the laboratory, together with the evidence and documentation of the development process.
+
+The main contents are:
+
+Challenge 1: Functional welcome message using student information.
+Challenge 2: Processing numerical lists through parallel development and merge conflicts.
+Challenge 3: String manipulation using StringBuilder, StringBuffer, lambdas, and Streams.
+Challenge 4: Combination and processing of HashMap and Hashtable collections.
+Challenge 5: Processing and merging HashSet and TreeSet collections.
+Challenge 6: Command execution using switch, Map<String, Runnable>, and lambda expressions.
+Conceptual Questionnaire: Answers related to Git, branching, merging, Java Streams, and collections.
+Learning Outcomes
+
+At the end of the laboratory, we gained practical experience in both collaborative development and Java programming. In particular, we improved our ability to work with Git workflows, integrate contributions from multiple developers, identify conflicts, and apply functional programming techniques to different programming problems.
+
+The following sections document the evidence, implementation details, Git operations, conflict resolution processes, and conceptual answers developed by our team.
 
 ## Team Members
 
 - Camilo Aguirre
 - Sara Sofia Gonzalez
 - Juan David Nieto
+
+
+
 
 ## Challenge 1 — Welcome Message
 
