@@ -33,9 +33,6 @@ public class Challenge6 {
         executeCommand("SHOUT");
         executeCommand("WHISPER");
         executeCommand("ANALYZE");
-
-        // Invalid command
-        executeCommand("PARTY");
     }
 
     public static void executeCommand(String command) {
