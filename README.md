@@ -116,6 +116,32 @@ The work was divided between Juan Nieto and Camilo Aguirre. Each team member imp
 
  During the merge process, conflicts arose between the team members' implementations. These included differences in the repetition and reverse methods, requiring the selection of the most appropriate implementation, as well as conflicts caused by changes to the same sections of code, which were resolved by reorganizing the affected methods.
 
+## Challenge 4 — The Treasure of Duplicate Keys
+
+### Evidence
+
+<img width="631" height="165" alt="image" src="https://github.com/user-attachments/assets/6c6b5b01-d000-4f2b-8e8a-23497615d717" />
+
+### Description
+
+In this challenge, a solution was implemented to combine two different data structures (`HashMap` and `Hashtable`) into a single sorted map. The final implementation converts all keys to uppercase, prioritizes values from the `Hashtable` when duplicate keys exist, and prints the merged result in ascending key order using Java Streams.
+
+The work was divided into two branches. **Student A** implemented the `buildHashMap()` method, which stores key-value pairs in a `HashMap`, ignores duplicate keys, and preserves the first value found. **Student B** implemented the `buildHashTable()` method using a `Hashtable` with its corresponding data.
+
+The Git workflow included creating a shared feature branch, creating individual branches for each student, committing the corresponding changes, merging both branches into the main challenge branch, and pushing the final version to the remote repository. The main Git commands used were:
+
+- `git checkout`
+- `git checkout -b`
+- `git add`
+- `git commit`
+- `git merge`
+- `git push`
+- `git log --oneline --graph --decorate --all`
+
+A merge conflict was intentionally generated because both branches modified the same `mergeMaps()` method. Git marked the conflicting sections, which were manually reviewed and merged into a single implementation.
+
+The conflict was resolved by creating a final `mergeMaps()` method that combines both maps, prioritizes the `Hashtable` values in case of duplicate keys, converts keys to uppercase, sorts them alphabetically, and collects the results into a `LinkedHashMap` using `stream()`, `map()`, `sorted()`, lambda expressions, and `Collectors.toMap()`. 
+
 
 ## Challenge 6 — The Decision Machine
 
