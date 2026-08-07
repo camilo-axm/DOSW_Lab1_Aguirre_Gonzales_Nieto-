@@ -96,8 +96,6 @@ Merge conflicts appeared because both branches modified the same Java file (`Par
 
 ### Description
 
-Aquí tienes una versión más fluida, profesional y concisa:
-
 In this challenge, three methods were implemented: one to reverse a given `String`, another to repeat a given `String` three times, and a third that combines the previous two methods to produce the reversed message repeated three times. A `main` method was also implemented to test the functionality by passing the string `"echo"` to the `echo` method, producing the output `"ohce ohce ohce"` in the terminal.
 
 The work was divided between Juan Nieto and Camilo Aguirre. Each team member implemented the first two methods and their own version of the third method. Afterwards, both branches were merged, resolving conflicts to obtain the final solution for the challenge. During the process, the following Git commands were used:
